@@ -1,0 +1,8 @@
+.sidebar {
+    width: 270px;
+    // background-color: red;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-right: 1px solid var(--mainColor);
+}

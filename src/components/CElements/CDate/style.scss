@@ -1,0 +1,56 @@
+#cdate {
+
+    .MuiStack-root {
+        padding: 0;
+        margin: 0;
+
+        .MuiInputBase-root {
+            height: 40px;
+            margin: 0;
+            border-color: var(--mainColor);
+            padding: 8.5px 14px;
+
+            .MuiInputBase-input {
+                height: 40px;
+                padding:0;
+                margin: 0;
+            }
+            
+            .MuiOutlinedInput-notchedOutline {
+                border-color: var(--mainColor);
+            }
+            
+            .MuiButtonBase-root,
+            .Mui-selected {
+                background-color: var(--mainColor);
+                color: var(--mainColor);
+            }
+            
+            
+        }
+        
+        
+    }
+
+
+}
+
+
+.MuiPopper-root {
+
+    .MuiDateRangeCalendar-root {
+        &>div:first-of-type {
+            display: none;
+        }
+
+        .MuiDateRangePickerDay-rangeIntervalDayHighlight{
+            background-color: var(--mainHover);
+        }
+
+        .MuiDateRangePickerDay-root {
+            button.Mui-selected{
+                background-color: var(--mainColor);
+            }
+        }
+    }
+}

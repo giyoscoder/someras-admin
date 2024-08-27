@@ -1,0 +1,27 @@
+.section {
+    border-top: 1px solid var(--mainColor);
+
+    .link {
+        padding: 0 24px;
+        display: block;
+        transition: all .3s;
+        border-bottom: 1px solid var(--mainColor);
+
+        p {
+            text-transform: capitalize;
+            font-size: 20px;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        &:hover {
+            background: linear-gradient(to right, var(--mainColor), white);
+        }
+    }
+
+
+
+
+}

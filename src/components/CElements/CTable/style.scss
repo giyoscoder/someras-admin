@@ -1,0 +1,54 @@
+#table {
+    width: 100%;
+    box-shadow: 1px 1px 15px 0 var(--gray10);
+    .table {
+        width: 100%;
+        border: 1px solid var(--gray10);
+    }
+
+    .CTableHead {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        height: auto !important;
+        border-bottom: 1px solid var(--gray10);
+    }
+
+    .CTableHeadRow{
+        background-color: var(--gray10) !important;
+    }
+
+    .CTableHeadCell,
+    .CTabelCell {
+        padding: 10px 24px;
+        border-right: 1px solid var(--gray10);
+        text-align: start;
+        border-bottom: 1px solid var(--gray10);
+        
+        &:last-child {
+            border: none;
+            border-bottom: none
+        }
+    }
+
+    .CTableRow {
+        cursor: pointer;
+
+        &:hover{
+            background-color: var(--gray10);
+        }
+    }
+    
+}
+
+tr {
+    cursor: pointer;
+    &:hover{
+        background-color: var(--gray10);
+    }
+}
+
+
+
+

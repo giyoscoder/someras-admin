@@ -1,0 +1,14 @@
+@import url('./sass/_style.scss'); 
+@import url('./sass/_mixin.scss'); 
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+svg {
+    // fill: var(--default);
+    color: var(--default);
+}

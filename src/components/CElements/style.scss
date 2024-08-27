@@ -1,0 +1,110 @@
+#cselect {
+  .MuiFormHelperText-root {
+    padding: 0;
+    margin: 0;
+
+    .MuiOutlinedInput-notchedOutline {
+      border-color: var(--mainColor);
+    }
+  }
+}
+
+
+// 
+
+
+.HFInput {
+  width: 100%;
+
+  .MuiFormControl-root {
+    position: relative;
+    width: 100%;
+
+    .MuiInputBase-root {
+      border-radius: 3px;
+      height: 40px;
+      border-radius: 8px;
+      border: 1px solid var(--mainColor);
+
+
+      fieldset {
+        border: none;
+
+      }
+
+      &.Mui-focused {
+        .MuiOutlinedInput-notchedOutline {
+          border: none;
+          outline: none;
+        }
+
+        outline: 1px solid var(--mainColor);
+      }
+
+      .Mui-disabled {
+        background-color: var(--gray10);
+      }
+    }
+
+    .MuiFormHelperText-root {
+      color: var(--error);
+      position: absolute;
+      bottom: -18px;
+      left: -10px;
+      font-size: 12px;
+    }
+
+    &.error {
+      .MuiOutlinedInput-notchedOutline {
+        border-color: red !important;
+      }
+    }
+  }
+
+  .visibility {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    cursor: pointer;
+  }
+}
+
+.HFTextarea {
+  width: 100%;
+  margin: 0;
+  padding: 17px;
+
+  textarea {
+    all: unset;
+    word-break: break-all;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    object-fit: cover;
+    box-sizing: border-box;
+    //   min-height: 200px;
+    //   height: 100%;
+  }
+}
+
+.CPriceInput , .cInputMask{
+  width: 100%;
+  
+  input {
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+    width: 100%;
+    padding: 8.5px 14px;
+    height: 40px;
+    border: none;
+    outline:1px solid var(--mainColor);
+
+    &:focus {
+      outline: 1.5px solid var(--mainColor);
+    }
+  }
+}
+
+
